@@ -1,0 +1,11 @@
+CREATE TABLE news(
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  category VARCHAR(10) NOT NULL,
+  link VARCHAR(30) NOT NULL,
+  title VARCHAR(40) NOT NULL,
+  abstract TEXT
+);
+
+SELECT * FROM news;
+
+DELETE FROM news
